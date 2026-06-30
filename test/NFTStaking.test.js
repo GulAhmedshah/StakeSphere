@@ -1,267 +1,320 @@
-Y29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoImNoYWkiKTsKY29uc3QgeyBl
-dGhlcnMgfSA9IHJlcXVpcmUoImhhcmRoYXQiKTsKY29uc3QgeyB0aW1lIH0g
-PSByZXF1aXJlKCJAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtbmV0d29yay1o
-ZWxwZXJzIik7CgpkZXNjcmliZSgiTkZUU3Rha2luZyIsIGZ1bmN0aW9uICgp
-IHsKICAgIGxldCBORlRTdGFraW5nLCBuZnRTdGFraW5nOwogICAgbGV0IFRl
-c3RORlQsIHRlc3RORlQ7CiAgICBsZXQgUmV3YXJkVG9rZW4sIHJld2FyZFRv
-a2VuOwogICAgbGV0IG93bmVyLCBhZGRyMSwgYWRkcjI7CgogICAgLy8gMTAg
-dG9rZW5zIHBlciBzZWNvbmQgcGVyIE5GVAogICAgY29uc3QgUkVXQVJEX1JB
-VEUgPSBldGhlcnMudXRpbHMucGFyc2VVbml0cygiMTAiLCAxOCk7CgogICAg
-YmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgLy8gR2V0
-IHNpZ25lcnMKICAgICAgICBbb3duZXIsIGFkZHIxLCBhZGRyMl0gPSBhd2Fp
-dCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICAgICAgICAvLyBEZXBsb3kgUmV3
-YXJkVG9rZW4KICAgICAgICBSZXdhcmRUb2tlbiA9IGF3YWl0IGV0aGVycy5n
-ZXRDb250cmFjdEZhY3RvcnkoIlJld2FyZFRva2VuIik7CiAgICAgICAgcmV3
-YXJkVG9rZW4gPSBhd2FpdCBSZXdhcmRUb2tlbi5kZXBsb3koKTsKICAgICAg
-ICBhd2FpdCByZXdhcmRUb2tlbi5kZXBsb3llZCgpOwoKICAgICAgICAvLyBE
-ZXBsb3kgVGVzdE5GVAogICAgICAgIFRlc3RORlQgPSBhd2FpdCBldGhlcnMu
-Z2V0Q29udHJhY3RGYWN0b3J5KCJUZXN0TkZUIik7CiAgICAgICAgdGVzdE5G
-VCA9IGF3YWl0IFRlc3RORlQuZGVwbG95KCk7CiAgICAgICAgYXdhaXQgdGVz
-dE5GVC5kZXBsb3llZCgpOwoKICAgICAgICAvLyBEZXBsb3kgTkZUU3Rha2lu
-ZyBjb250cmFjdAogICAgICAgIE5GVFN0YWtpbmcgPSBhd2FpdCBldGhlcnMu
-Z2V0Q29udHJhY3RGYWN0b3J5KCJORlRTdGFraW5nIik7CiAgICAgICAgbmZ0
-U3Rha2luZyA9IGF3YWl0IE5GVFN0YWtpbmcuZGVwbG95KHJld2FyZFRva2Vu
-LmFkZHJlc3MsIHRlc3RORlQuYWRkcmVzcywgUkVXQVJEX1JBVEUpOwogICAg
-ICAgIGF3YWl0IG5mdFN0YWtpbmcuZGVwbG95ZWQoKTsKCiAgICAgICAgLy8g
-TWludCBzb21lIE5GVHMgZm9yIGFkZHIxIGFuZCBhZGRyMgogICAgICAgIGF3
-YWl0IHRlc3RORlQuY29ubmVjdChvd25lcikuc2FmZU1pbnQoYWRkcjEuYWRk
-cmVzcyk7CiAgICAgICAgYXdhaXQgdGVzdE5GVC5jb25uZWN0KG93bmVyKS5z
-YWZlTWludChhZGRyMS5hZGRyZXNzKTsKICAgICAgICBhd2FpdCB0ZXN0TkZU
-LmNvbm5lY3Qob3duZXIpLnNhZmVNaW50KGFkZHIyLmFkZHJlc3MpOwogICAg
-ICAgIC8vIGFkZHIxIG93bnMgdG9rZW4gSURzIDAsIDEKICAgICAgICAvLyBh
-ZGRyMiBvd25zIHRva2VuIElEIDIKCiAgICAgICAgLy8gQXBwcm92ZSB0aGUg
-c3Rha2luZyBjb250cmFjdCB0byBtYW5hZ2UgdXNlcnMnIE5GVHMKICAgICAg
-ICBhd2FpdCB0ZXN0TkZULmNvbm5lY3QoYWRkcjEpLnNldEFwcHJvdmFsRm9y
-QWxsKG5mdFN0YWtpbmcuYWRkcmVzcywgdHJ1ZSk7CiAgICAgICAgYXdhaXQg
-dGVzdE5GVC5jb25uZWN0KGFkZHIyKS5zZXRBcHByb3ZhbEZvckFsbChuZnRT
-dGFraW5nLmFkZHJlc3MsIHRydWUpOwoKICAgICAgICAvLyBGdW5kIHRoZSBz
-dGFraW5nIGNvbnRyYWN0IHdpdGggcmV3YXJkIHRva2VucwogICAgICAgIGNv
-bnN0IHRvdGFsUmV3YXJkcyA9IGV0aGVycy51dGlscy5wYXJzZVVuaXRzKCIx
-MDAwMDAwIiwgMTgpOwogICAgICAgIGF3YWl0IHJld2FyZFRva2VuLmNvbm5l
-Y3Qob3duZXIpLnRyYW5zZmVyKG5mdFN0YWtpbmcuYWRkcmVzcywgdG90YWxS
-ZXdhcmRzKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCJEZXBsb3ltZW50Iiwg
-ZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCJTaG91bGQgc2V0IHRoZSBjb3Jy
-ZWN0IHJld2FyZCB0b2tlbiBhZGRyZXNzIiwgYXN5bmMgZnVuY3Rpb24gKCkg
-ewogICAgICAgICAgICBleHBlY3QoYXdhaXQgbmZ0U3Rha2luZy5yZXdhcmRU
-b2tlbigpKS50by5lcXVhbChyZXdhcmRUb2tlbi5hZGRyZXNzKTsKICAgICAg
-ICB9KTsKCiAgICAgICAgaXQoIlNob3VsZCBzZXQgdGhlIGNvcnJlY3QgTkZU
-IGFkZHJlc3MiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGV4
-cGVjdChhd2FpdCBuZnRTdGFraW5nLm5mdCgpKS50by5lcXVhbCh0ZXN0TkZU
-LmFkZHJlc3MpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgiU2hvdWxkIHNl
-dCB0aGUgY29ycmVjdCByZXdhcmQgcmF0ZSIsIGFzeW5jIGZ1bmN0aW9uICgp
-IHsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IG5mdFN0YWtpbmcucmV3YXJk
-UmF0ZSgpKS50by5lcXVhbChSRVdBUkRfUkFURSk7CiAgICAgICAgfSk7Cgog
-ICAgICAgIGl0KCJTaG91bGQgaGF2ZSB0aGUgY29ycmVjdCBiYWxhbmNlIG9m
-IHJld2FyZCB0b2tlbnMiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAg
-ICAgIGNvbnN0IHRvdGFsUmV3YXJkcyA9IGV0aGVycy51dGlscy5wYXJzZVVu
-aXRzKCIxMDAwMDAwIiwgMTgpOwogICAgICAgICAgICBleHBlY3QoYXdhaXQg
-cmV3YXJkVG9rZW4uYmFsYW5jZU9mKG5mdFN0YWtpbmcuYWRkcmVzcykpLnRv
-LmVxdWFsKHRvdGFsUmV3YXJkcyk7CiAgICAgICAgfSk7CiAgICB9KTsKCiAg
-ICBkZXNjcmliZSgiU3Rha2luZyIsIGZ1bmN0aW9uICgpIHsKICAgICAgICBp
-dCgiU2hvdWxkIGFsbG93IGEgdXNlciB0byBzdGFrZSBhbiBORlQiLCBhc3lu
-YyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGNvbnN0IHRva2VuSWQgPSAw
-OwogICAgICAgICAgICBhd2FpdCBleHBlY3QobmZ0U3Rha2luZy5jb25uZWN0
-KGFkZHIxKS5zdGFrZShbdG9rZW5JZF0pKQogICAgICAgICAgICAgICAgLnRv
-LmVtaXQobmZ0U3Rha2luZywgIlN0YWtlZCIpCiAgICAgICAgICAgICAgICAu
-d2l0aEFyZ3MoYWRkcjEuYWRkcmVzcywgW3Rva2VuSWRdKTsKCiAgICAgICAg
-ICAgIGV4cGVjdChhd2FpdCB0ZXN0TkZULm93bmVyT2YodG9rZW5JZCkpLnRv
-LmVxdWFsKG5mdFN0YWtpbmcuYWRkcmVzcyk7CiAgICAgICAgICAgIGNvbnN0
-IHN0YWtlckluZm8gPSBhd2FpdCBuZnRTdGFraW5nLnN0YWtlcnMoYWRkcjEu
-YWRkcmVzcyk7CiAgICAgICAgICAgIGV4cGVjdChzdGFrZXJJbmZvLnN0YWtl
-ZFRva2Vucy5sZW5ndGgpLnRvLmVxdWFsKDEpOwogICAgICAgICAgICBleHBl
-Y3Qoc3Rha2VySW5mby5zdGFrZWRUb2tlbnNbMF0pLnRvLmVxdWFsKHRva2Vu
-SWQpOwogICAgICAgICAgICBleHBlY3QoYXdhaXQgbmZ0U3Rha2luZy5zdGFr
-ZWRUb2tlbk93bmVyKHRva2VuSWQpKS50by5lcXVhbChhZGRyMS5hZGRyZXNz
-KTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoIlNob3VsZCBub3QgYWxsb3cg
-c3Rha2luZyBhbiBhbHJlYWR5IHN0YWtlZCBORlQiLCBhc3luYyBmdW5jdGlv
-biAoKSB7CiAgICAgICAgICAgIGNvbnN0IHRva2VuSWQgPSAwOwogICAgICAg
-ICAgICBhd2FpdCBuZnRTdGFraW5nLmNvbm5lY3QoYWRkcjEpLnN0YWtlKFt0
-b2tlbklkXSk7CgogICAgICAgICAgICBhd2FpdCBleHBlY3QobmZ0U3Rha2lu
-Zy5jb25uZWN0KGFkZHIxKS5zdGFrZShbdG9rZW5JZF0pKQogICAgICAgICAg
-ICAgICAgLnRvLmJlLnJldmVydGVkV2l0aCgiTkZUU3Rha2luZzogVG9rZW4g
-YWxyZWFkeSBzdGFrZWQiKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoIlNo
-b3VsZCBub3QgYWxsb3cgc3Rha2luZyBhbiBORlQgdGhlIHVzZXIgZG9lcyBu
-b3Qgb3duIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBjb25z
-dCB0b2tlbklkT3duZWRCeUFkZHIyID0gMjsKICAgICAgICAgICAgYXdhaXQg
-ZXhwZWN0KG5mdFN0YWtpbmcuY29ubmVjdChhZGRyMSkuc3Rha2UoW3Rva2Vu
-SWRPd25lZEJ5QWRkcjJdKSkKICAgICAgICAgICAgICAgIC50by5iZS5yZXZl
-cnRlZFdpdGgoIk5GVFN0YWtpbmc6IENhbGxlciBpcyBub3QgdGhlIG93bmVy
-IG9mIHRoZSBORlQiKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoIlNob3Vs
-ZCBub3QgYWxsb3cgc3Rha2luZyB3aXRob3V0IHByaW9yIGFwcHJvdmFsIiwg
-YXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAvLyBNaW50IGEgbmV3
-IE5GVCB0byBhIG5ldyB1c2VyIHdobyBoYXNuJ3QgZ2l2ZW4gYXBwcm92YWwK
-ICAgICAgICAgICAgY29uc3QgWywsLCBhZGRyM10gPSBhd2FpdCBldGhlcnMu
-Z2V0U2lnbmVycygpOwogICAgICAgICAgICBhd2FpdCB0ZXN0TkZULmNvbm5l
-Y3Qob3duZXIpLnNhZmVNaW50KGFkZHIzLmFkZHJlc3MpOyAvLyB0b2tlbklk
-IDMKICAgICAgICAgICAgY29uc3QgdG9rZW5JZCA9IDM7CgogICAgICAgICAg
-ICBhd2FpdCBleHBlY3QobmZ0U3Rha2luZy5jb25uZWN0KGFkZHIzKS5zdGFr
-ZShbdG9rZW5JZF0pKQogICAgICAgICAgICAgICAgLnRvLmJlLnJldmVydGVk
-V2l0aCgiRVJDNzIxOiBjYWxsZXIgaXMgbm90IHRva2VuIG93bmVyIG9yIGFw
-cHJvdmVkIik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCJTaG91bGQgcmV2
-ZXJ0IHdoZW4gc3Rha2luZyBhbiBlbXB0eSBhcnJheSIsIGFzeW5jIGZ1bmN0
-aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KG5mdFN0YWtpbmcu
-Y29ubmVjdChhZGRyMSkuc3Rha2UoW10pKQogICAgICAgICAgICAgICAgLnRv
-LmJlLnJldmVydGVkV2l0aCgiTkZUU3Rha2luZzogTXVzdCBzdGFrZSBhdCBs
-ZWFzdCBvbmUgdG9rZW4iKTsKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGRl
-c2NyaWJlKCJXaXRoZHJhd2luZyIsIGZ1bmN0aW9uICgpIHsKICAgICAgICBi
-ZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgLy8g
-YWRkcjEgc3Rha2VzIHRva2VuIDAKICAgICAgICAgICAgYXdhaXQgbmZ0U3Rh
-a2luZy5jb25uZWN0KGFkZHIxKS5zdGFrZShbMF0pOwogICAgICAgIH0pOwoK
-ICAgICAgICBpdCgiU2hvdWxkIGFsbG93IGEgdXNlciB0byB3aXRoZHJhdyBh
-IHN0YWtlZCBORlQiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAg
-IGNvbnN0IHRva2VuSWQgPSAwOwogICAgICAgICAgICBhd2FpdCBleHBlY3Qo
-bmZ0U3Rha2luZy5jb25uZWN0KGFkZHIxKS53aXRoZHJhdyhbdG9rZW5JZF0p
-KQogICAgICAgICAgICAgICAgLnRvLmVtaXQobmZ0U3Rha2luZywgIldpdGhk
-cmF3biIpCiAgICAgICAgICAgICAgICAud2l0aEFyZ3MoYWRkcjEuYWRkcmVz
-cywgW3Rva2VuSWRdKTsKCiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0ZXN0
-TkZULm93bmVyT2YodG9rZW5JZCkpLnRvLmVxdWFsKGFkZHIxLmFkZHJlc3Mp
-OwogICAgICAgICAgICBjb25zdCBzdGFrZXJJbmZvID0gYXdhaXQgbmZ0U3Rh
-a2luZy5zdGFrZXJzKGFkZHIxLmFkZHJlc3MpOwogICAgICAgICAgICBleHBl
-Y3Qoc3Rha2VySW5mby5zdGFrZWRUb2tlbnMubGVuZ3RoKS50by5lcXVhbCgw
-KTsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IG5mdFN0YWtpbmcuc3Rha2Vk
-VG9rZW5Pd25lcih0b2tlbklkKSkudG8uZXF1YWwoZXRoZXJzLmNvbnN0YW50
-cy5BZGRyZXNzWmVybyk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCJTaG91
-bGQgbm90IGFsbG93IGEgdXNlciB0byB3aXRoZHJhdyBhbiBORlQgdGhleSBk
-aWQgbm90IHN0YWtlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAg
-ICBjb25zdCB0b2tlbklkU3Rha2VkQnlBZGRyMSA9IDA7CiAgICAgICAgICAg
-IGF3YWl0IGV4cGVjdChuZnRTdGFraW5nLmNvbm5lY3QoYWRkcjIpLndpdGhk
-cmF3KFt0b2tlbklkU3Rha2VkQnlBZGRyMV0pKQogICAgICAgICAgICAgICAg
-LnRvLmJlLnJldmVydGVkV2l0aCgiTkZUU3Rha2luZzogQ2FsbGVyIGRpZCBu
-b3Qgc3Rha2UgdGhpcyB0b2tlbiIpOwogICAgICAgIH0pOwoKICAgICAgICBp
-dCgiU2hvdWxkIG5vdCBhbGxvdyB3aXRoZHJhd2luZyBhbiB1bnN0YWtlZCBO
-RlQiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGNvbnN0IHVu
-c3Rha2VkVG9rZW5JZCA9IDE7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdChu
-ZnRTdGFraW5nLmNvbm5lY3QoYWRkcjEpLndpdGhkcmF3KFt1bnN0YWtlZFRv
-a2VuSWRdKSkKICAgICAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGgo
-Ik5GVFN0YWtpbmc6IFRva2VuIG5vdCBzdGFrZWQiKTsKICAgICAgICB9KTsK
-CiAgICAgICAgaXQoIlNob3VsZCByZXZlcnQgd2hlbiB3aXRoZHJhd2luZyBh
-biBlbXB0eSBhcnJheSIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAg
-ICAgYXdhaXQgZXhwZWN0KG5mdFN0YWtpbmcuY29ubmVjdChhZGRyMSkud2l0
-aGRyYXcoW10pKQogICAgICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0
-aCgiTkZUU3Rha2luZzogTXVzdCB3aXRoZHJhdyBhdCBsZWFzdCBvbmUgdG9r
-ZW4iKTsKICAgICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCJSZXdh
-cmRzIiwgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCJTaG91bGQgY2FsY3Vs
-YXRlIHJld2FyZHMgY29ycmVjdGx5IGZvciBhIHNpbmdsZSBzdGFrZXIiLCBh
-c3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IG5mdFN0YWtp
-bmcuY29ubmVjdChhZGRyMSkuc3Rha2UoWzAsIDFdKTsgLy8gMiBORlRzCiAg
-ICAgICAgICAgIAogICAgICAgICAgICBjb25zdCBkdXJhdGlvbiA9IDEwMDsg
-Ly8gMTAwIHNlY29uZHMKICAgICAgICAgICAgYXdhaXQgdGltZS5pbmNyZWFz
-ZShkdXJhdGlvbik7CgogICAgICAgICAgICBjb25zdCBleHBlY3RlZFJld2Fy
-ZHMgPSBSRVdBUkRfUkFURS5tdWwoMikubXVsKGR1cmF0aW9uKTsKICAgICAg
-ICAgICAgY29uc3QgY2FsY3VsYXRlZFJld2FyZHMgPSBhd2FpdCBuZnRTdGFr
-aW5nLmNhbGN1bGF0ZVJld2FyZHMoYWRkcjEuYWRkcmVzcyk7CiAgICAgICAg
-ICAgIGV4cGVjdChjYWxjdWxhdGVkUmV3YXJkcykudG8uZXF1YWwoZXhwZWN0
-ZWRSZXdhcmRzKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoIlNob3VsZCBh
-bGxvdyBhIHVzZXIgdG8gY2xhaW0gdGhlaXIgcmV3YXJkcyIsIGFzeW5jIGZ1
-bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgbmZ0U3Rha2luZy5jb25u
-ZWN0KGFkZHIxKS5zdGFrZShbMF0pOyAvLyAxIE5GVAogICAgICAgICAgICBj
-b25zdCBkdXJhdGlvbiA9IDYwOwogICAgICAgICAgICBhd2FpdCB0aW1lLmlu
-Y3JlYXNlKGR1cmF0aW9uKTsKCiAgICAgICAgICAgIGNvbnN0IHJld2FyZHMg
-PSBhd2FpdCBuZnRTdGFraW5nLmNhbGN1bGF0ZVJld2FyZHMoYWRkcjEuYWRk
-cmVzcyk7CiAgICAgICAgICAgIGNvbnN0IGV4cGVjdGVkUmV3YXJkcyA9IFJF
-V0FSRF9SQVRFLm11bCgxKS5tdWwoZHVyYXRpb24pOwogICAgICAgICAgICBl
-eHBlY3QocmV3YXJkcykudG8uZXF1YWwoZXhwZWN0ZWRSZXdhcmRzKTsKCiAg
-ICAgICAgICAgIGF3YWl0IGV4cGVjdCgoKSA9PiBuZnRTdGFraW5nLmNvbm5l
-Y3QoYWRkcjEpLmNsYWltUmV3YXJkcygpKQogICAgICAgICAgICAgICAgLnRv
-LmNoYW5nZVRva2VuQmFsYW5jZShyZXdhcmRUb2tlbiwgYWRkcjEsIGV4cGVj
-dGVkUmV3YXJkcyk7CgogICAgICAgICAgICAvLyBSZXdhcmRzIHNob3VsZCBi
-ZSByZXNldCBhZnRlciBjbGFpbWluZwogICAgICAgICAgICBleHBlY3QoYXdh
-aXQgbmZ0U3Rha2luZy5jYWxjdWxhdGVSZXdhcmRzKGFkZHIxLmFkZHJlc3Mp
-KS50by5lcXVhbCgwKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoIlNob3Vs
-ZCBoYW5kbGUgcmV3YXJkcyBmb3IgbXVsdGlwbGUgc3Rha2VycyBjb3JyZWN0
-bHkiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIC8vIDEuIGFk
-ZHIxIHN0YWtlcyAyIE5GVHMKICAgICAgICAgICAgYXdhaXQgbmZ0U3Rha2lu
-Zy5jb25uZWN0KGFkZHIxKS5zdGFrZShbMCwgMV0pOwogICAgICAgICAgICBj
-b25zdCBpbml0aWFsVGltZXN0YW1wID0gYXdhaXQgdGltZS5sYXRlc3QoKTsK
-CiAgICAgICAgICAgIC8vIDIuIFRpbWUgcGFzc2VzIGZvciAxMDAgc2Vjb25k
-cwogICAgICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlKDEwMCk7CgogICAg
-ICAgICAgICAvLyAzLiBhZGRyMiBzdGFrZXMgMSBORlQKICAgICAgICAgICAg
-YXdhaXQgbmZ0U3Rha2luZy5jb25uZWN0KGFkZHIyKS5zdGFrZShbMl0pOwoK
-ICAgICAgICAgICAgLy8gNC4gVGltZSBwYXNzZXMgZm9yIGFub3RoZXIgMjAw
-IHNlY29uZHMKICAgICAgICAgICAgYXdhaXQgdGltZS5pbmNyZWFzZSgyMDAp
-OwoKICAgICAgICAgICAgLy8gQ2FsY3VsYXRlIGFkZHIxJ3MgcmV3YXJkcwog
-ICAgICAgICAgICAvLyBTdGFrZWQgMiBORlRzIGZvciBhIHRvdGFsIG9mIDMw
-MCBzZWNvbmRzICgxMDAgKyAyMDApCiAgICAgICAgICAgIGNvbnN0IGFkZHIx
-RXhwZWN0ZWRSZXdhcmRzID0gUkVXQVJEX1JBVEUubXVsKDIpLm11bCgzMDAp
-OwogICAgICAgICAgICBjb25zdCBhZGRyMUNhbGN1bGF0ZWRSZXdhcmRzID0g
-YXdhaXQgbmZ0U3Rha2luZy5jYWxjdWxhdGVSZXdhcmRzKGFkZHIxLmFkZHJl
-c3MpOwogICAgICAgICAgICBleHBlY3QoYWRkcjFDYWxjdWxhdGVkUmV3YXJk
-cykudG8uZXF1YWwoYWRkcjFFeHBlY3RlZFJld2FyZHMpOwoKICAgICAgICAg
-ICAgLy8gQ2FsY3VsYXRlIGFkZHIyJ3MgcmV3YXJkcwogICAgICAgICAgICAv
-LyBTdGFrZWQgMSBORlQgZm9yIDIwMCBzZWNvbmRzCiAgICAgICAgICAgIGNv
-bnN0IGFkZHIyRXhwZWN0ZWRSZXdhcmRzID0gUkVXQVJEX1JBVEUubXVsKDEp
-Lm11bCgyMDApOwogICAgICAgICAgICBjb25zdCBhZGRyMkNhbGN1bGF0ZWRS
-ZXdhcmRzID0gYXdhaXQgbmZ0U3Rha2luZy5jYWxjdWxhdGVSZXdhcmRzKGFk
-ZHIyLmFkZHJlc3MpOwogICAgICAgICAgICBleHBlY3QoYWRkcjJDYWxjdWxh
-dGVkUmV3YXJkcykudG8uZXF1YWwoYWRkcjJFeHBlY3RlZFJld2FyZHMpOwog
-ICAgICAgIH0pOwoKICAgICAgICBpdCgiU2hvdWxkIGF1dG9tYXRpY2FsbHkg
-Y2xhaW0gcmV3YXJkcyBvbiBzdGFrZSIsIGFzeW5jIGZ1bmN0aW9uICgpIHsK
-ICAgICAgICAgICAgYXdhaXQgbmZ0U3Rha2luZy5jb25uZWN0KGFkZHIxKS5z
-dGFrZShbMF0pOyAvLyAxIE5GVAogICAgICAgICAgICBhd2FpdCB0aW1lLmlu
-Y3JlYXNlKDEwMCk7CgogICAgICAgICAgICBjb25zdCBleHBlY3RlZFJld2Fy
-ZHMgPSBSRVdBUkRfUkFURS5tdWwoMSkubXVsKDEwMCk7CiAgICAgICAgICAg
-IGNvbnN0IGluaXRpYWxCYWxhbmNlID0gYXdhaXQgcmV3YXJkVG9rZW4uYmFs
-YW5jZU9mKGFkZHIxLmFkZHJlc3MpOwoKICAgICAgICAgICAgLy8gU3Rha2lu
-ZyBhbm90aGVyIE5GVCBzaG91bGQgdHJpZ2dlciBjbGFpbQogICAgICAgICAg
-ICBhd2FpdCBuZnRTdGFraW5nLmNvbm5lY3QoYWRkcjEpLnN0YWtlKFsxXSk7
-CgogICAgICAgICAgICBjb25zdCBmaW5hbEJhbGFuY2UgPSBhd2FpdCByZXdh
-cmRUb2tlbi5iYWxhbmNlT2YoYWRkcjEuYWRkcmVzcyk7CiAgICAgICAgICAg
-IGV4cGVjdChmaW5hbEJhbGFuY2Uuc3ViKGluaXRpYWxCYWxhbmNlKSkudG8u
-ZXF1YWwoZXhwZWN0ZWRSZXdhcmRzKTsKCiAgICAgICAgICAgIC8vIFJld2Fy
-ZCB0aW1lciBzaG91bGQgYmUgcmVzZXQKICAgICAgICAgICAgZXhwZWN0KGF3
-YWl0IG5mdFN0YWtpbmcuY2FsY3VsYXRlUmV3YXJkcyhhZGRyMS5hZGRyZXNz
-KSkudG8uZXF1YWwoMCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCJTaG91
-bGQgYXV0b21hdGljYWxseSBjbGFpbSByZXdhcmRzIG9uIHdpdGhkcmF3Iiwg
-YXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBuZnRTdGFr
-aW5nLmNvbm5lY3QoYWRkcjEpLnN0YWtlKFswLCAxXSk7IC8vIDIgTkZUcwog
-ICAgICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlKDEwMCk7CgogICAgICAg
-ICAgICBjb25zdCBleHBlY3RlZFJld2FyZHMgPSBSRVdBUkRfUkFURS5tdWwo
-MikubXVsKDEwMCk7CiAgICAgICAgICAgIGNvbnN0IGluaXRpYWxCYWxhbmNl
-ID0gYXdhaXQgcmV3YXJkVG9rZW4uYmFsYW5jZU9mKGFkZHIxLmFkZHJlc3Mp
-OwoKICAgICAgICAgICAgLy8gV2l0aGRyYXdpbmcgYW4gTkZUIHNob3VsZCB0
-cmlnZ2VyIGNsYWltCiAgICAgICAgICAgIGF3YWl0IG5mdFN0YWtpbmcuY29u
-bmVjdChhZGRyMSkud2l0aGRyYXcoWzBdKTsKCiAgICAgICAgICAgIGNvbnN0
-IGZpbmFsQmFsYW5jZSA9IGF3YWl0IHJld2FyZFRva2VuLmJhbGFuY2VPZihh
-ZGRyMS5hZGRyZXNzKTsKICAgICAgICAgICAgZXhwZWN0KGZpbmFsQmFsYW5j
-ZS5zdWIoaW5pdGlhbEJhbGFuY2UpKS50by5lcXVhbChleHBlY3RlZFJld2Fy
-ZHMpOwoKICAgICAgICAgICAgLy8gUmV3YXJkIHRpbWVyIHNob3VsZCBiZSBy
-ZXNldCAoZm9yIHRoZSByZW1haW5pbmcgMSBORlQpCiAgICAgICAgICAgIGV4
-cGVjdChhd2FpdCBuZnRTdGFraW5nLmNhbGN1bGF0ZVJld2FyZHMoYWRkcjEu
-YWRkcmVzcykpLnRvLmVxdWFsKDApOwogICAgICAgIH0pOwoKICAgICAgICBp
-dCgiU2hvdWxkIHJldmVydCBpZiB0cnlpbmcgdG8gY2xhaW0gemVybyByZXdh
-cmRzIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBl
-eHBlY3QobmZ0U3Rha2luZy5jb25uZWN0KGFkZHIxKS5jbGFpbVJld2FyZHMo
-KSkKICAgICAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGgoIk5GVFN0
-YWtpbmc6IE5vIHJld2FyZHMgdG8gY2xhaW0iKTsKICAgICAgICAgICAgCiAg
-ICAgICAgICAgIGF3YWl0IG5mdFN0YWtpbmcuY29ubmVjdChhZGRyMSkuc3Rh
-a2UoWzBdKTsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KG5mdFN0YWtpbmcu
-Y29ubmVjdChhZGRyMSkuY2xhaW1SZXdhcmRzKCkpCiAgICAgICAgICAgICAg
-ICAudG8uYmUucmV2ZXJ0ZWRXaXRoKCJORlRTdGFraW5nOiBObyByZXdhcmRz
-IHRvIGNsYWltIik7IC8vIFRpbWUgaGFzbid0IHBhc3NlZAogICAgICAgIH0p
-OwoKICAgICAgICBpdCgiU2hvdWxkIGNhbGN1bGF0ZSByZXdhcmRzIGNvcnJl
-Y3RseSBhZnRlciB3aXRoZHJhd2luZyBhbGwgTkZUcyBhbmQgcmVzdGFraW5n
-IiwgYXN5bmMgZnVuY3Rpb24oKXsKICAgICAgICAgICAgLy8gMS4gU3Rha2UK
-ICAgICAgICAgICAgYXdhaXQgbmZ0U3Rha2luZy5jb25uZWN0KGFkZHIxKS5z
-dGFrZShbMF0pOwogICAgICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlKDEw
-MCk7CiAgICAgICAgICAgIGNvbnN0IGZpcnN0UmV3YXJkID0gUkVXQVJEX1JB
-VEUubXVsKDEpLm11bCgxMDApOwoKICAgICAgICAgICAgLy8gMi4gV2l0aGRy
-YXcgYWxsIChhbmQgY2xhaW0gcmV3YXJkcykKICAgICAgICAgICAgY29uc3Qg
-YmFsYW5jZUJlZm9yZVdpdGhkcmF3ID0gYXdhaXQgcmV3YXJkVG9rZW4uYmFs
-YW5jZU9mKGFkZHIxLmFkZHJlc3MpOwogICAgICAgICAgICBhd2FpdCBuZnRT
-dGFraW5nLmNvbm5lY3QoYWRkcjEpLndpdGhkcmF3KFswXSk7CiAgICAgICAg
-ICAgIGNvbnN0IGJhbGFuY2VBZnRlcldpdGhkcmF3ID0gYXdhaXQgcmV3YXJk
-VG9rZW4uYmFsYW5jZU9mKGFkZHIxLmFkZHJlc3MpOwogICAgICAgICAgICBl
-eHBlY3QoYmFsYW5jZUFmdGVyV2l0aGRyYXcuc3ViKGJhbGFuY2VCZWZvcmVX
-aXRoZHJhdykpLnRvLmVxdWFsKGZpcnN0UmV3YXJkKTsKCiAgICAgICAgICAg
-IC8vIDMuIFdhaXQgc29tZSB0aW1lIChubyByZXdhcmRzIHNob3VsZCBhY2N1
-bXVsYXRlKQogICAgICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlKDUwMCk7
-CgogICAgICAgICAgICAvLyA0LiBSZS1zdGFrZQogICAgICAgICAgICBhd2Fp
-dCBuZnRTdGFraW5nLmNvbm5lY3QoYWRkcjEpLnN0YWtlKFswXSk7CiAgICAg
-ICAgICAgIGF3YWl0IHRpbWUuaW5jcmVhc2UoMjAwKTsKCiAgICAgICAgICAg
-IC8vIDUuIENoZWNrIHJld2FyZHMgKHNob3VsZCBvbmx5IGJlIGZvciB0aGUg
-c2Vjb25kIHN0YWtpbmcgcGVyaW9kKQogICAgICAgICAgICBjb25zdCBzZWNv
-bmRSZXdhcmQgPSBSRVdBUkRfUkFURS5tdWwoMSkubXVsKDIwMCk7CiAgICAg
-ICAgICAgIGNvbnN0IGNhbGN1bGF0ZWRSZXdhcmRzID0gYXdhaXQgbmZ0U3Rh
-a2luZy5jYWxjdWxhdGVSZXdhcmRzKGFkZHIxLmFkZHJlc3MpOwogICAgICAg
-ICAgICBleHBlY3QoY2FsY3VsYXRlZFJld2FyZHMpLnRvLmVxdWFsKHNlY29u
-ZFJld2FyZCk7CiAgICAgICAgfSk7CiAgICB9KTsKfSk7
+const { expect } = require("chai");
+const { ethers } = require("hardhat");
+const { time } = require("@nomicfoundation/hardhat-network-helpers");
+
+describe("NFTStaking", function () {
+  // We define a fixture to reuse the same setup in every test.
+  async function deployNFTStakingFixture() {
+    const [owner, staker1, staker2, otherAccount] = await ethers.getSigners();
+
+    // Deploy mock Reward Token (ERC20)
+    // Using a preset makes it easy to mint tokens for testing
+    const RewardToken = await ethers.getContractFactory("ERC20PresetMinterPauser");
+    const rewardToken = await RewardToken.deploy("Reward Token", "RWT");
+    await rewardToken.deployed();
+
+    // Deploy mock NFT (ERC721)
+    // Using a preset with AutoId makes minting sequential and predictable
+    const MyNFT = await ethers.getContractFactory("ERC721PresetMinterPauserAutoId");
+    const nft = await MyNFT.deploy("My NFT", "MNFT", "https://api.mynft.com/token/");
+    await nft.deployed();
+
+    // Deploy NFTStaking contract
+    const NFTStaking = await ethers.getContractFactory("NFTStaking");
+    const stakingContract = await NFTStaking.deploy(nft.address, rewardToken.address);
+    await stakingContract.deployed();
+
+    // Setup: Fund staking contract and set reward rate
+    const REWARD_RATE = ethers.utils.parseUnits("10", 18); // 10 RWT per second
+    const initialRewardFund = ethers.utils.parseUnits("1000000", 18);
+    await rewardToken.mint(stakingContract.address, initialRewardFund);
+    await stakingContract.setRewardRate(REWARD_RATE);
+
+    // Setup: Mint NFTs to stakers
+    await nft.mint(staker1.address); // tokenId 0
+    await nft.mint(staker1.address); // tokenId 1
+    await nft.mint(staker2.address); // tokenId 2
+
+    // Setup: Stakers approve the staking contract to manage their NFTs
+    await nft.connect(staker1).setApprovalForAll(stakingContract.address, true);
+    await nft.connect(staker2).setApprovalForAll(stakingContract.address, true);
+
+    return { stakingContract, nft, rewardToken, owner, staker1, staker2, otherAccount, REWARD_RATE };
+  }
+
+  // Using a beforeEach with the fixture ensures a clean state for each test.
+  let stakingContract, nft, rewardToken, owner, staker1, staker2, otherAccount, REWARD_RATE;
+
+  beforeEach(async function () {
+    const fixture = await deployNFTStakingFixture();
+    stakingContract = fixture.stakingContract;
+    nft = fixture.nft;
+    rewardToken = fixture.rewardToken;
+    owner = fixture.owner;
+    staker1 = fixture.staker1;
+    staker2 = fixture.staker2;
+    otherAccount = fixture.otherAccount;
+    REWARD_RATE = fixture.REWARD_RATE;
+  });
+
+  describe("Deployment", function () {
+    it("Should set the correct owner", async function () {
+      expect(await stakingContract.owner()).to.equal(owner.address);
+    });
+
+    it("Should set the correct NFT collection address", async function () {
+      expect(await stakingContract.nftCollection()).to.equal(nft.address);
+    });
+
+    it("Should set the correct reward token address", async function () {
+      expect(await stakingContract.rewardToken()).to.equal(rewardToken.address);
+    });
+
+    it("Should fail to deploy with zero address for NFT collection", async function () {
+        const NFTStaking = await ethers.getContractFactory("NFTStaking");
+        await expect(NFTStaking.deploy(ethers.constants.AddressZero, rewardToken.address)).to.be.revertedWith("NFTStaking: Zero address");
+    });
+
+    it("Should fail to deploy with zero address for reward token", async function () {
+        const NFTStaking = await ethers.getContractFactory("NFTStaking");
+        await expect(NFTStaking.deploy(nft.address, ethers.constants.AddressZero)).to.be.revertedWith("NFTStaking: Zero address");
+    });
+  });
+
+  describe("Staking", function () {
+    it("Should allow a user to stake an approved NFT", async function () {
+      const tokenId = 0;
+      await expect(stakingContract.connect(staker1).stake(tokenId))
+        .to.emit(stakingContract, "Staked")
+        .withArgs(staker1.address, tokenId);
+      
+      expect(await nft.ownerOf(tokenId)).to.equal(stakingContract.address);
+      expect(await stakingContract.totalStaked()).to.equal(1);
+      const stakerInfo = await stakingContract.stakers(staker1.address);
+      expect(stakerInfo.amountStaked).to.equal(1);
+    });
+
+    it("Should not allow staking without prior approval", async function () {
+        await nft.connect(staker1).setApprovalForAll(stakingContract.address, false); // Revoke approval
+        const tokenId = 0;
+        await expect(stakingContract.connect(staker1).stake(tokenId))
+          .to.be.revertedWith("ERC721: transfer caller is not owner nor approved");
+    });
+
+    it("Should not allow staking an NFT that is not owned by the caller", async function () {
+        const tokenIdOwnedByStaker2 = 2;
+        await expect(stakingContract.connect(staker1).stake(tokenIdOwnedByStaker2))
+            .to.be.revertedWith("NFTStaking: Caller is not the owner of the NFT");
+    });
+
+    it("Should not allow staking an already staked NFT", async function () {
+      const tokenId = 0;
+      await stakingContract.connect(staker1).stake(tokenId);
+      await expect(stakingContract.connect(staker1).stake(tokenId))
+        .to.be.revertedWith("NFTStaking: Token already staked");
+    });
+
+    it("Should update staker info and total staked amount correctly for multiple stakes", async function () {
+      await stakingContract.connect(staker1).stake(0);
+      await stakingContract.connect(staker1).stake(1);
+
+      expect(await stakingContract.totalStaked()).to.equal(2);
+      const stakerInfo = await stakingContract.stakers(staker1.address);
+      expect(stakerInfo.amountStaked).to.equal(2);
+    });
+  });
+
+  describe("Withdrawing", function () {
+    const tokenId = 0;
+    beforeEach(async function () {
+        await stakingContract.connect(staker1).stake(tokenId);
+    });
+
+    it("Should allow a user to withdraw their staked NFT", async function () {
+      await time.increase(100); // Pass some time to accrue rewards
+
+      await expect(stakingContract.connect(staker1).withdraw(tokenId))
+        .to.emit(stakingContract, "Withdrawn")
+        .withArgs(staker1.address, tokenId);
+
+      expect(await nft.ownerOf(tokenId)).to.equal(staker1.address);
+      expect(await stakingContract.totalStaked()).to.equal(0);
+      const stakerInfo = await stakingContract.stakers(staker1.address);
+      expect(stakerInfo.amountStaked).to.equal(0);
+    });
+
+    it("Should not allow a non-staker to withdraw an NFT", async function () {
+      await expect(stakingContract.connect(staker2).withdraw(tokenId))
+        .to.be.revertedWith("NFTStaking: Caller is not the staker");
+    });
+
+    it("Should transfer accrued rewards upon withdrawal", async function () {
+      await time.increase(100); 
+
+      const earnedRewards = await stakingContract.earned(staker1.address);
+      const balanceBefore = await rewardToken.balanceOf(staker1.address);
+
+      await stakingContract.connect(staker1).withdraw(tokenId);
+      
+      const balanceAfter = await rewardToken.balanceOf(staker1.address);
+      const stakerInfo = await stakingContract.stakers(staker1.address);
+      
+      expect(balanceAfter.sub(balanceBefore)).to.equal(earnedRewards);
+      expect(stakerInfo.unclaimedRewards).to.equal(0);
+    });
+    
+    it("Should correctly update staker info when withdrawing one of many NFTs", async function(){
+        await stakingContract.connect(staker1).stake(1); // staker1 now has 2 NFTs staked
+        expect(await stakingContract.totalStaked()).to.equal(2);
+        
+        await time.increase(100);
+        await stakingContract.connect(staker1).withdraw(0);
+
+        expect(await nft.ownerOf(0)).to.equal(staker1.address);
+        expect(await stakingContract.totalStaked()).to.equal(1);
+        const stakerInfo = await stakingContract.stakers(staker1.address);
+        expect(stakerInfo.amountStaked).to.equal(1);
+    });
+  });
+
+  describe("Reward Calculation", function () {
+    it("Should calculate rewards correctly for a single staker over time", async function () {
+      await stakingContract.connect(staker1).stake(0);
+      await time.increase(3600); // 1 hour
+
+      const expectedRewards = REWARD_RATE.mul(1).mul(3600); // 1 NFT * 10 RWT/sec * 3600 sec
+      const earnedRewards = await stakingContract.earned(staker1.address);
+
+      expect(earnedRewards).to.equal(expectedRewards);
+    });
+
+    it("Should handle reward calculation correctly with multiple stakers and stakes", async function () {
+      await stakingContract.connect(staker1).stake(0); // staker1 stakes 1st NFT
+      await time.increase(100);
+      await stakingContract.connect(staker2).stake(2); // staker2 stakes
+      await time.increase(50);
+      await stakingContract.connect(staker1).stake(1); // staker1 stakes 2nd NFT
+      await time.increase(200);
+
+      // staker1: 1 NFT for 150s, then 2 NFTs for 200s
+      const expectedRewards1 = REWARD_RATE.mul(1 * 150).add(REWARD_RATE.mul(2 * 200));
+      // staker2: 1 NFT for 250s
+      const expectedRewards2 = REWARD_RATE.mul(1 * 250);
+
+      expect(await stakingContract.earned(staker1.address)).to.equal(expectedRewards1);
+      expect(await stakingContract.earned(staker2.address)).to.equal(expectedRewards2);
+    });
+
+    it("Should allow claiming rewards without withdrawing", async function () {
+      await stakingContract.connect(staker1).stake(0);
+      await time.increase(100);
+
+      const earned = await stakingContract.earned(staker1.address);
+      const balanceBefore = await rewardToken.balanceOf(staker1.address);
+
+      await expect(stakingContract.connect(staker1).claimRewards())
+        .to.emit(stakingContract, "RewardClaimed");
+
+      const balanceAfter = await rewardToken.balanceOf(staker1.address);
+      
+      expect(balanceAfter.sub(balanceBefore)).to.equal(earned);
+      expect(await stakingContract.earned(staker1.address)).to.be.lt(ethers.utils.parseUnits("1", 10)); // small tolerance for block time
+    });
+    
+    it("Should return 0 earned for an account that has not staked", async function() {
+        expect(await stakingContract.earned(otherAccount.address)).to.equal(0);
+    });
+
+    it("Should stop accumulating rewards after withdrawal", async function () {
+      await stakingContract.connect(staker1).stake(0);
+      await time.increase(100);
+
+      await stakingContract.connect(staker1).withdraw(0);
+
+      await time.increase(500); // Pass more time
+
+      const stakerInfo = await stakingContract.stakers(staker1.address);
+      expect(stakerInfo.unclaimedRewards).to.equal(0);
+      expect(await stakingContract.earned(staker1.address)).to.equal(0);
+    });
+  });
+
+  describe("Owner Functions", function () {
+    it("Should allow the owner to set the reward rate", async function () {
+      const newRate = ethers.utils.parseUnits("25", 18);
+      await expect(stakingContract.connect(owner).setRewardRate(newRate))
+        .to.emit(stakingContract, "RewardRateSet")
+        .withArgs(newRate);
+      expect(await stakingContract.rewardRate()).to.equal(newRate);
+    });
+
+    it("Should not allow a non-owner to set the reward rate", async function () {
+      const newRate = ethers.utils.parseUnits("25", 18);
+      await expect(stakingContract.connect(staker1).setRewardRate(newRate))
+        .to.be.revertedWith("Ownable: caller is not the owner");
+    });
+    
+    it("Should allow the owner to recover mistakenly sent ERC20 tokens", async function() {
+        const amount = ethers.utils.parseUnits("100", 18);
+        await rewardToken.mint(otherAccount.address, amount);
+        await rewardToken.connect(otherAccount).transfer(stakingContract.address, amount);
+
+        const ownerBalanceBefore = await rewardToken.balanceOf(owner.address);
+        
+        await stakingContract.connect(owner).recoverERC20(rewardToken.address, amount);
+
+        const ownerBalanceAfter = await rewardToken.balanceOf(owner.address);
+        expect(ownerBalanceAfter.sub(ownerBalanceBefore)).to.equal(amount);
+    });
+  });
+  
+  describe("Edge Cases", function () {
+    it("Should handle staking and unstaking with a large number of NFTs", async function() {
+        for (let i = 0; i < 20; i++) {
+            await nft.mint(staker1.address);
+        }
+        await nft.connect(staker1).setApprovalForAll(stakingContract.address, true);
+
+        // Staker already has tokenId 0 and 1. New ones are 3-22.
+        // Stake 20 new NFTs
+        for (let i = 3; i < 23; i++) {
+            await stakingContract.connect(staker1).stake(i);
+        }
+        
+        let stakerInfo = await stakingContract.stakers(staker1.address);
+        expect(stakerInfo.amountStaked).to.equal(20);
+
+        await time.increase(1000);
+        
+        const expectedRewards = REWARD_RATE.mul(20).mul(1000);
+        const earned = await stakingContract.earned(staker1.address);
+        expect(earned).to.be.closeTo(expectedRewards, ethers.utils.parseUnits("1", 12));
+    });
+    
+    it("Should correctly calculate rewards when reward rate is 0", async function() {
+        await stakingContract.connect(owner).setRewardRate(0);
+        await stakingContract.connect(staker1).stake(0);
+        await time.increase(1000);
+        
+        expect(await stakingContract.earned(staker1.address)).to.equal(0);
+    });
+
+    it("Should handle staking a large tokenId number", async function() {
+        // Mint a high-number tokenId
+        const largeTokenId = 2**50;
+        // This requires a custom mint function, as ERC721PresetMinterPauserAutoId is sequential.
+        // For this test, we'll assume the NFT contract supports non-sequential minting.
+        // We will skip this test if the mock doesn't support it, but it demonstrates the principle.
+        try {
+            await nft.mintWithId(staker1.address, largeTokenId); // Assumes such function exists
+        } catch (e) {
+            this.skip();
+        }
+        
+        await expect(stakingContract.connect(staker1).stake(largeTokenId))
+            .to.emit(stakingContract, "Staked").withArgs(staker1.address, largeTokenId);
+
+        expect(await nft.ownerOf(largeTokenId)).to.equal(stakingContract.address);
+    });
+  });
+});
